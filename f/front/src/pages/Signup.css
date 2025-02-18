@@ -1,0 +1,61 @@
+body{
+    background-image: url('./woman-working-her-sustainable-greenhouse.jpg');
+    /* width: 250vh; */
+    /* height: 40vh; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .signup-container {
+      background: #5cb46981;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.473);
+      width: 300px;
+      height: 380px;
+      margin-top: -10px;
+      /* text-align: center; */
+    }
+    
+    .signup-container h2 {
+      margin-top: -10px;
+      text-align: center;
+      color: #000000;
+      font-size: 20px;
+    }
+    
+    
+    .label{
+    font-size: 15px;
+    color: #000000;
+    
+    }
+    
+    
+    .input-field {
+      width: 97%;
+      padding: 3px;
+      /* margin-left: 2px; */
+      border: 1px solid #000000ed;
+      border-radius: 5px;
+      /* gap: 10px; */
+      margin-bottom: 10px;
+      color: #000000;
+      background-color: #ffffffc7;
+    }
+    .signup-button {
+      width: 100%;
+      padding: 5px;
+      background: #000000;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 10px;
+    }
+    .signup-button:hover {
+      background: rgb(190, 255, 12);
+    }
+    
+    
