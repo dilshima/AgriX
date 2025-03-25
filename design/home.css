@@ -1,0 +1,95 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2e1;
+    text-align: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.534);
+}
+.logo {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #000000;
+    text-shadow: 4px 4px 4px #00000065;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    position: relative;
+    background-color: #7adac5ad;
+    padding: 50px;
+}
+.hero h1 {
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    font-size: 100px;
+    color: #ffffff;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.562);
+}
+.cta {
+    position: absolute ;
+    top: 580px;
+    left: 680px;
+    background-color: #18691f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;        }
+.hero img {
+    width: 800px;
+    margin-top: -30px;
+    opacity: 1;
+}
+.organic-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-weight: bold;
+    color: #4CAF50;
+}
+.floating-buttons {
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.floating-buttons .btn {
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
